@@ -4,6 +4,10 @@ sudo useradd devops1
 sudo useradd devops2
 cat /etc/passwd |tail
 
+sudo groupadd grupodevops
+sudo groupadd grupodevelopers
+cat /etc/group
+sudo groupadd grupotesters
 
 sudo usermod -aG grupodevops developer1
 sudo usermod -aG grupodevelopers developer1   
